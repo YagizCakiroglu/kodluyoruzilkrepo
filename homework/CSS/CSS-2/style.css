@@ -1,0 +1,67 @@
+
+#header {
+    text-align: center;
+}
+
+#articles {
+    width: 90%;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+#articles .p1, .input, .buton {
+text-align: center;
+}
+#articles .p1 {
+    margin-top: 0px;
+}
+#articles .p1, .p1 {
+    margin-bottom: 0px;
+}
+
+
+#icerik { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-1 {
+    width: 33%;
+    height: 78px;
+    background-color: rgb(126, 229, 218);
+    margin-top: 2px;
+    font-size: medium;
+    padding: 2px;
+}
+.container-1 .p1, a{ 
+    text-align: center;
+    display: block;   
+}
+.container-2 {
+    font-size: small;
+    width: 17.5%;
+    height: 60px;
+    background-color: rgb(112, 204, 194);
+    margin: 2px;
+}
+.container-2{
+    padding: 10px;
+}
+    .container-3{
+    width: 37.8%;
+    height: 77px;
+    background-color: rgb(98, 179, 170);
+    margin-top: 2px;
+    padding: 2px;
+}
+.container-3 .p1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+.container-3 .p1, .buton-2 {
+    text-align: center;
+}
+.footer .p1{
+    text-align: center;
+    font-size: small;
+}
