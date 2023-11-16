@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            text-align: center;
+        }
+        .link-list li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: purple;
+        }
+        h3 {
+            color: goldenrod;
+        }
+        .photo-grup {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .photo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .photo img {
+            width: 200px;
+            height: 200px;
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+
+        .photo p {
+            margin: 1 auto; 
+            text-align: center; 
+        }
+
+        
+        .photo:before {
+            content: attr(data-number);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Müzik Dükkanım</h1>
+        <ul class="link-list">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="products.html">Ürünlerimiz</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+        </ul>
+        <h2>Ürünlerimiz</h2>
+        <div class="photo-grup">
+            <div class="photo" data-number="1">
+                <img src="https://img-zuhalmuzik.mncdn.com/mnresize/1000/1000/images/product/1333490370910558_1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>7500</strong></p>
+            </div>
+            <div class="photo" data-number="2">
+                <img src="https://media.istockphoto.com/id/146967607/tr/foto%C4%9Fraf/close-up-of-red-drum-set-on-white-background.jpg?s=612x612&w=0&k=20&c=XSGcRizAQ3MWUJ_nvPkut1ABv7quxuLlCeGafLF--Lk=" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>11000</strong></p>
+            </div>
+            <div class="photo" data-number="3">
+                <img src="https://media.istockphoto.com/id/153252717/tr/foto%C4%9Fraf/flute.jpg?s=612x612&w=0&k=20&c=ZHwQZkRC1gK0xYpzd6vIyKeN2N3kic8HMkWCk5shBt0=" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>3500</strong></p>
+            </div>
+            <div class="photo" data-number="4">
+                <img src="https://www.do-re.com.tr/fenix-fss-10mlpb-elektro-gitar-mavi-0157b9b619a22f1298f7c7a93251b37c-7563924d750798d29a413c0b0870922c-max-pp.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>2500</strong></p>
+            </div>
+            <div class="photo" data-number="5">
+                <img src="https://www.do-re.com.tr/donner-dek-620-61-tuslu-org-417edf4e85751bf30ca39b5dd330769f-5025b77c2ae8e6cbab96803f14693286-large-pp.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>4000</strong></p>
+            </div>
+            <div class="photo" data-number="6">
+                <img src="https://www.do-re.com.tr/mavis-mv012l-1-4m-laminated-keman-mat-d672118bd465307fdba0d3f923ee4ac8-cd75eccc5676ca7c3d9c779d43aa5f17-large-pp.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>34000</strong></p>
+            </div>
+            <div class="photo" data-number="7">
+                <img src="https://www.do-re.com.tr/pearl-river-up118m-akustik-duvar-piyano-parlak-siyah-5a761109c9d75531b59da4f5c8ddbf8c-265139a3a7a316329066827163018362-large-pp.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet. <strong>45000</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
